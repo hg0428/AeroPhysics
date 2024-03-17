@@ -1,0 +1,26 @@
+{
+  "name": "aerophysics",
+  "version": "0.0.0",
+  "description": "A JavaScript engine for flight physics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hg0428/AeroPhysics.git"
+  },
+  "keywords": [
+    "flight",
+    "physics",
+    "javascript",
+    "js",
+    "aerodynamics"
+  ],
+  "author": "Hudson Gouge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hg0428/AeroPhysics/issues"
+  },
+  "homepage": "https://github.com/hg0428/AeroPhysics#readme"
+}
