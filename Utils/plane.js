@@ -22,7 +22,7 @@ class Plane {
 	 * @param {Vector3} axis - The axis to rotate around
 	 * @param {Number} angle - In radians
 	 */
-	rotate(axis, angle) {
+	rotateByAngle(axis, angle) {
 		axis = axis.normalize(); // Ensure the axis is normalized
 		const cos = Math.cos(angle);
 		const sin = Math.sin(angle);
@@ -36,11 +36,11 @@ class Plane {
 		this.normal = rotatedNormal.normalize(); // Update the plane's normal vector
 	}
 	/**
-	 * Rotate the plane based on a vector.
-	 * @param {Vector3} vector
+	 * Rotate the normal vector of the plane by the given Quaternion.
+	 * @param {Quaternion} quaternion - The Quaternion to rotate the plane by
 	 */
-	adjustByVector(vector) {
-		this.normal.rotateBy;
+	rotateByQuaternion(quaternion) {
+		this.normal.rotateByQuaternion(quaternion);
 	}
 }
 

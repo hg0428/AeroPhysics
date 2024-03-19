@@ -1,7 +1,8 @@
-import { Vector3 } from "./vector.js";
-import { Quaternion } from "./quaternion.js";
-import { Plane } from "./plane.js";
+import { Vector3 } from "./Utils/vector.js";
+import { Quaternion } from "./Utils/quaternion.js";
+import { Plane } from "./Utils/plane.js";
+import { Surface2D } from "./Utils/surface.js";
 
-class Body {
+class Body3D {
 	constructor() {}
 }

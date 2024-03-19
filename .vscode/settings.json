@@ -1,0 +1,7 @@
+{
+    "autominify.enableSeparateFolderJS": true,
+    "autominify.jsMinifierOptions": {
+
+        "mangle": false
+    }
+}

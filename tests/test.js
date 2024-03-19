@@ -1,5 +1,5 @@
-import { Vector2, Vector3 } from "../vector";
-import { Plane } from "../plane";
+import { Vector2, Vector3 } from "../Utils/vector";
+import { Plane } from "../Utils/plane";
 
 function testPlaneCreation() {
 	const point = new Vector3(1, 2, 3);

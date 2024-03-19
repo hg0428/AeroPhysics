@@ -1,4 +1,4 @@
-import { Vector3 } from "./vector";
-import { Quaternion } from "./quaternion";
+import { Vector3 } from "./Utils/vector";
+import { Quaternion } from "./Utils/quaternion";
 
 console.log(Vector3, Quaternion);
